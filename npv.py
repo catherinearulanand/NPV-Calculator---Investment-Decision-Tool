@@ -6,15 +6,22 @@ def calculate_npv(initial_investment, cash_flows, rate):
     
     return npv
 
-initial = 100000  # ₹1 lakh investment
-returns = [30000, 30000, 30000, 30000, 30000]  # 5 years
-rate = 0.10  # 10%
+initial = float(input("Enter initial investment: "))
 
-result = calculate_npv(initial, returns, rate)
+years = int(input("Enter number of years: "))
 
-print("NPV:", result)
+cash_flows = []
+for i in range(years):
+    cf = float(input(f"Enter cash flow for year {i+1}: "))
+    cash_flows.append(cf)
+
+rate = float(input("Enter discount rate (in decimal, e.g., 0.1 for 10%): "))
+
+result = calculate_npv(initial, cash_flows, rate)
+
+print("\nNPV:", result)
 
 if result > 0:
-    print("Good investment")
+    print("Good investment.")
 else:
-    print("Not worth it")
+    print("Not worth it.")
