@@ -1,20 +1,31 @@
--------- NPV Calculator - Investment Decision Tool ---------
+# NPV Calculator – Investment Decision Tool
 
 A Python tool to evaluate investment decisions using Net Present Value (NPV).
 
-  Features:
+  ## Features:
+  
 - Takes initial investment, cash flows, and discount rate.
 - Calculates NPV. (Net Present Value - basically the value of future money at present, for defined cash flows and spacing in time periods)
 - Suggests if investment is good or not.
-- Compares between 2 investment - claims which is better using NPV. 
+- Compares two investments and determines which is better using NPV.
 
-  Concept Used:
+  ## Concept Used:
+  
 - Net Present Value (NPV) from Corporate Finance
 
-  Example:
+  ## Example:
+  
   Investment: ₹100000  
   Returns: ₹30000/year for 5 years  
   Discount Rate: 10%
 
-- How to Run:
-  python npv.py
+  ## How to Run:
+  
+- python npv.py
+
+  ## Sample Output:
+  
+  NPV of Investment A: 12000  
+  NPV of Investment B: 9000  
+
+  Investment A is better
