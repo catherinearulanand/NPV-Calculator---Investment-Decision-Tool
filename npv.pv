@@ -6,7 +6,6 @@ def calculate_npv(initial_investment, cash_flows, rate):
     
     return npv
 
-# Example
 initial = 100000  # ₹1 lakh investment
 returns = [30000, 30000, 30000, 30000, 30000]  # 5 years
 rate = 0.10  # 10%
