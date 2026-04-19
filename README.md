@@ -1,6 +1,6 @@
 -------- NPV Calculator - Investment Decision Tool ---------
 
-This is a Python project that allows the users to calculate the Net Present Value to evaluate if an investment is worth it!!!
+A Python tool to evaluate investment decisions using Net Present Value (NPV).
 
 - Features
 - Takes initial investment, cash flows, and discount rate
